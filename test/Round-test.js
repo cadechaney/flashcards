@@ -74,5 +74,13 @@ describe('Round', () => {
     round.takeTurn('Fitzgerald')
     expect(round.calculatePercentCorrect()).to.equal(66)
   })
+
+  it('should have a method to end the round', () => {
+    round.takeTurn('sea otter')
+    round.takeTurn('gall bladdersssss')
+    round.takeTurn('Fitzgerald')
+  
+    expect(round.endRound()).to.equal('** Round over! ** You answered 66% of the questions correctly!')
+  })
 })
 
