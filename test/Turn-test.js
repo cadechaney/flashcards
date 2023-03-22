@@ -11,7 +11,6 @@ let turn;
 describe('Turn', () => {
 
   beforeEach('setup', () => {
-    console.log('checking')
     card = new Card(1, 'What is Robbie\'s favorite animal', ['sea otter', 'pug', 'capybara'], 'sea otter')
     turn = new Turn(guess, card);
     turn2 = new Turn('sea otter', card);
