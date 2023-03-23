@@ -1,71 +1,29 @@
-# FlashCards Starter Kit
+# Flashcards
 
-## Fork This Repo
+# Abstract:
 
-On the top right corner of this page, click the **Fork** button.
-
-## Setup
-
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
-
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
-
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
-
-
-## Where to Add Your Code
-
-### JavaScript
-
-**Create all of your feature code files in the `src` directory.**
-
-We will be using the `module.exports` and `require` syntax to share code across files.
+For this project I built a game in the terminal using TDD with class to class interaction. This game will run through a series of cards that the user can answer with a given multiple choice answer. At the end, the use will see their final score as a percentage.
 
 ## How to View Your Code in Action
 
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
+  Steps in order to clone and run the app:
 
-```bash
-node index.js
-```
+  1. Fork the GitHub Repository [file](https://github.com/cadechaney/flashcards)
+  2. After initializing git inside the directory the user wants they can now clone their forked copy to their machine
+  3. Once cloned, the user can now cd into the directory, and using the 'node index.js' command in their terminal they can now open the application in their terminal.
 
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
+## Preview:
 
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
+![gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzFhZjM3M2ViY2U3Mjg2YTBjYjgxZjE5YTE2ZDUzNjY2YTZmZThiNSZjdD1n/az3IHbk1rMI1Weiayd/giphy.gif)
 
----
 
-## Test Files Organization
+## Context:
 
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
+This is my first solo project in Mod 2 at Turing school of Software and Design. I spent approximately 12 hours on this project.
 
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
+## Wins + Challenges
 
-## Running Your Tests
+Challenges: I struggled in the beginning on were to even start with my functionality. Once I caught some understanding of what needed to be done I was able to carry though with the Javascript.
 
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
-
+Wins: I found a win for this project was for me to use my resources in my cohort effectively 
 
